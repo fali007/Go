@@ -1,2 +1,1 @@
-This is a test page, I am editing it from go. 
-Editing it again
+This is a test page

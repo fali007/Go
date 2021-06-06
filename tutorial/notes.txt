@@ -1,0 +1,39 @@
+object oriented approach and go approach
+
+Object oriented:
+	Class:
+		class variables
+		functions
+	Instance of class
+
+Go approach:
+	Structure is created
+		it contains variables
+	Functions which can receive struct
+
+folder structure:
+	main.go <-> deck.go <-> deck_test.go
+
+	main.go will create and manipulate deck
+	deck.go will contain all the functions and variables associated with deck
+	deck_test.go will contain the test cases, which will be run automatically.
+
+Receiver functions:
+	Syntax:
+		func (receiver) func_name (){
+
+		}
+	Any variable of this type have access to this function.
+
+If we have to declare but never use a variable we use '_'
+
+Indexing slice : [Start Index Including : End Index Excluding]
+
+Byte slice : Every element represent will be a character - computer way for a string.
+
+Type Conversion : typeWeWant(valueToChange)
+
+Testing with go:
+	filename should be _test.go
+
+	What to test - 

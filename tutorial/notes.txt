@@ -37,3 +37,26 @@ Testing with go:
 	filename should be _test.go
 
 	What to test - 
+
+Struct with go:
+	zero value - string ""
+	int 0
+	float 0
+	bool false
+
+* infront of type - tells its just the address
+* infront of variable - is the value in that memory loc
+
+
+gotchas - array and slice in go.
+	array - primitive, cant resize, rarely used
+	slice - can grow and shrink
+
+Slice  - [pointer to first element, capacity, length]
+	so when passing the slice we are actually passing the pointer.
+	slice, map, functions, pointer, channels - reference typetype
+	int, float, string - value type
+
+Maps
+	collection of key value pair
+	all the keys should of same type and all the value should be of same type
